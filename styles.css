@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap');
+
 body {
   margin: 0;
+  background-color: #333;
 }
 
 .wrapper {
@@ -35,6 +37,7 @@ header {
   width: 100%;
   object-fit: cover;
   z-index: -1;
+  transition: opacity 0.1s;
 }
 
 .title {
@@ -43,9 +46,39 @@ header {
   text-shadow: 0 0 5px black;;
   font-family: "Fira Code";
   font-weight: bold;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  z-index: -1;
+  height: 100%;
 }
 
-section {
+
+.authors {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  z-index: -1;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 2px black;;
+  font-family: "Fira Code";
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 3rem;
+  background-color: #333;
+  color: white;
+  font-family: "Fira Code";
+  font-weight: bold;
+}
+
+pre {
   font-size: 2rem;
   padding: 2rem;
   background-color: #333;
