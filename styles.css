@@ -1,23 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap');
-
-body {
-  margin: 0;
+@font-face {
+  font-family: Hewitt;
+  src: url(fonts/CooperHewitt-Semibold.woff);
 }
 
 body {
-  margin: 0;
+  margin: auto;
 }
 
 .wrapper {
-  height: 9720px;
+  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
 }
 
 header {
-  position: relative;
-  display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -30,53 +28,45 @@ header {
 }
 
 .foreground {
+  height: 1103px;
   transform: translateZ(-5px) scale(1.5);
 }
 
 .background,
 .foreground {
   position: absolute;
-  height: 100%;
   width: 100%;
+  height: auto;
   object-fit: cover;
   z-index: -1;
 }
 
-.title {
-  font-size: 7rem;
-  color: white;
-  text-shadow: 0 0 5px black;;
-  font-family: "Fira Code";
+.title{
+  background: linear-gradient(60deg, #616161, #1f1f1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-family: "Hewitt";
   font-weight: bold;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  z-index: -1;
-  height: 100%;
+  font-size: 11rem;
+  color: rgb(71, 71, 71);
+  margin-bottom: 2rem;
 }
 
-
-.authors {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  z-index: -1;
-  font-size: 3rem;
-  color: white;
-  text-shadow: 0 0 2px black;;
-  font-family: "Fira Code";
-  font-weight: bold;
+.block {
+  text-shadow: 0 0 5px black;;
+  background-image: linear-gradient(130deg, #616161, #1f1f1f);
+  margin: auto;
+  border-radius: 30px;
+  display: inline-block;
+  width: 92vh;
+  background-color: rgb(71, 71, 71);
 }
 
 section {
-  font-size: 3rem;
-  background-color: #333;
+  font-family: "Hewitt";
+  font-size: 2rem;
+  padding: 2rem;
   color: white;
-  font-family: "Fira Code";
-  font-weight: bold;
 }
 
