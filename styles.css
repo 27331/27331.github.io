@@ -2,11 +2,14 @@
 
 body {
   margin: 0;
-  background-color: #333;
+}
+
+body {
+  margin: 0;
 }
 
 .wrapper {
-  height: 100vh;
+  height: 9720px;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
@@ -37,7 +40,6 @@ header {
   width: 100%;
   object-fit: cover;
   z-index: -1;
-  transition: opacity 0.1s;
 }
 
 .title {
@@ -70,7 +72,7 @@ header {
   font-weight: bold;
 }
 
-.subtitle {
+section {
   font-size: 3rem;
   background-color: #333;
   color: white;
@@ -78,11 +80,3 @@ header {
   font-weight: bold;
 }
 
-pre {
-  font-size: 2rem;
-  padding: 2rem;
-  background-color: #333;
-  color: white;
-  font-family: "Fira Code";
-  font-weight: 278;
-}
