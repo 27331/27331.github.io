@@ -48,9 +48,8 @@ header {
   display: inline-block;
   font-family: "Hewitt";
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 21vw;
   color: rgb(71, 71, 71);
-  margin-bottom: 2rem;
 }
 
 .block {
@@ -59,13 +58,31 @@ header {
   margin: auto;
   border-radius: 30px;
   display: inline-block;
-  width: 46vw;
+  width: 50vw;
   background-color: rgb(71, 71, 71);
-}
-
-section {
   font-family: "Hewitt";
   font-size: 2vw;
-  padding: 2rem;
+  padding: 1rem;
   color: white;
 }
+
+.image {
+  border-radius: 30px;
+  max-width: 52vw;
+  height: auto;
+}
+
+p {
+  font-family: "Hewitt";
+  font-size: 2vw;
+  padding: 1rem;
+  color: white;
+}
+
+h1 {
+  font-family: "Hewitt";
+  font-size: 5vw;
+  font-weight: bold;
+  color: #383838;
+}
+
