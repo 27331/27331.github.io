@@ -48,7 +48,7 @@ header {
   display: inline-block;
   font-family: "Hewitt";
   font-weight: bold;
-  font-size: 11rem;
+  font-size: 10vw;
   color: rgb(71, 71, 71);
   margin-bottom: 2rem;
 }
@@ -59,14 +59,13 @@ header {
   margin: auto;
   border-radius: 30px;
   display: inline-block;
-  width: 92vh;
+  width: 46vw;
   background-color: rgb(71, 71, 71);
 }
 
 section {
   font-family: "Hewitt";
-  font-size: 2rem;
+  font-size: 2vw;
   padding: 2rem;
   color: white;
 }
-
